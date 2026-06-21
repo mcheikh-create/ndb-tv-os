@@ -72,6 +72,18 @@ A digitally fluent Nouadhibou where every citizen has access to practical knowle
 
 Help people improve their lives through practical knowledge and responsible use of technology.
 
+### Brand Identity
+
+NDB-TV positions itself as **the media network of the AI era in Nouadhibou** — credible as a major news network, rooted in local identity.
+
+**Brand Pillars:** Artificial Intelligence, Education, Entrepreneurship, Youth Success, Community Development, Innovation, Nouadhibou Future Vision
+
+**Visual Identity:** Deep blue (`#0a1f3d`) primary background, white "NDB" wordmark, red "TV" (`#e63946`) accent. The official emblem combines an AI microchip above an open book — representing the fusion of technology and knowledge.
+
+**Official Taglines:**
+- Arabic: صوت المعرفة والابتكار في نواذيبو (The Voice of Knowledge and Innovation in Nouadhibou)
+- English: The Voice of Innovation in Nouadhibou
+
 ### Core Values
 
 | Value | Meaning |
@@ -97,6 +109,20 @@ NDB-TV promises its audience six things, captured in six Arabic words:
 | **الرياضة** | Sports | Local athletics and achievement |
 | **الصحة** | Health | Prevention, awareness, well-being |
 | **الذكاء الاصطناعي** | AI | Making AI useful and accessible |
+
+### Primary Tagline
+
+**صوت المعرفة والابتكار في نواذيبو**
+— The Voice of Knowledge and Innovation in Nouadhibou
+
+### Alternative Tagline
+
+**منصة الذكاء الاصطناعي والمعرفة للجميع**
+— The AI and Knowledge Platform for Everyone
+
+### English Tagline
+
+**The Voice of Innovation in Nouadhibou**
 
 ---
 

@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .bg { fill: #0a1f3d; }
+      .chip-body { fill: none; stroke: #ffffff; stroke-width: 3; }
+      .chip-pin { fill: #ffffff; }
+      .chip-accent { fill: #e63946; }
+      .book-page { fill: #ffffff; }
+      .book-cover { fill: none; stroke: #ffffff; stroke-width: 2.5; }
+    </style>
+  </defs>
+
+  <!-- Square deep blue background -->
+  <rect class="bg" x="0" y="0" width="400" height="400" rx="60" ry="60"/>
+
+  <!-- AI Chip -->
+  <rect class="chip-body" x="120" y="80" width="160" height="160" rx="16"/>
+  <rect class="chip-body" x="145" y="105" width="110" height="110" rx="10"/>
+  <circle class="chip-accent" cx="200" cy="160" r="14"/>
+
+  <!-- Chip pins - top -->
+  <rect class="chip-pin" x="175" y="60" width="16" height="20"/>
+  <rect class="chip-pin" x="209" y="60" width="16" height="20"/>
+  <!-- Chip pins - bottom -->
+  <rect class="chip-pin" x="175" y="320" width="16" height="20"/>
+  <rect class="chip-pin" x="209" y="320" width="16" height="20"/>
+  <!-- Chip pins - left -->
+  <rect class="chip-pin" x="100" y="130" width="20" height="16"/>
+  <rect class="chip-pin" x="100" y="174" width="20" height="16"/>
+  <rect class="chip-pin" x="100" y="218" width="20" height="16"/>
+  <!-- Chip pins - right -->
+  <rect class="chip-pin" x="280" y="130" width="20" height="16"/>
+  <rect class="chip-pin" x="280" y="174" width="20" height="16"/>
+  <rect class="chip-pin" x="280" y="218" width="20" height="16"/>
+
+  <!-- Open book -->
+  <!-- Left page -->
+  <path class="book-cover" d="M 80 280 Q 80 258 110 258 L 200 258 L 200 360 L 110 360 Q 80 360 80 340 Z"/>
+  <!-- Right page -->
+  <path class="book-cover" d="M 320 280 Q 320 258 290 258 L 200 258 L 200 360 L 290 360 Q 320 360 320 340 Z"/>
+  <!-- Spine -->
+  <line x1="200" y1="258" x2="200" y2="360" stroke="#ffffff" stroke-width="3"/>
+
+  <!-- Page lines left -->
+  <line x1="100" y1="280" x2="185" y2="280" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="295" x2="185" y2="295" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="310" x2="185" y2="310" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="325" x2="185" y2="325" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="100" y1="340" x2="185" y2="340" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+
+  <!-- Page lines right -->
+  <line x1="215" y1="280" x2="300" y2="280" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="215" y1="295" x2="300" y2="295" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="215" y1="310" x2="300" y2="310" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="215" y1="325" x2="300" y2="325" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+  <line x1="215" y1="340" x2="300" y2="340" stroke="#ffffff" stroke-width="1.5" opacity="0.5"/>
+</svg>

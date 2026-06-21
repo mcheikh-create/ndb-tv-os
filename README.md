@@ -25,7 +25,7 @@ Help people improve their lives through practical knowledge and responsible use 
 | الصحة | Health |
 | الذكاء الاصطناعي | Artificial Intelligence |
 
-**المعرفة • الفرص • المجتمع • الرياضة • الصحة • الذكاء الاصطناعي**
+**صوت المعرفة والابتكار في نواذيبو** — The Voice of Knowledge and Innovation in Nouadhibou
 
 ## Operating Principle
 

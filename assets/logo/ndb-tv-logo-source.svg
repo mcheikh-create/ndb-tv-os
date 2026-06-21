@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 120" width="400" height="120">
+  <defs>
+    <style>
+      .bg { fill: #0a1f3d; }
+      .ndb-text { fill: #ffffff; font-family: 'Arial', sans-serif; font-weight: 900; font-size: 48px; }
+      .tv-text { fill: #e63946; font-family: 'Arial', sans-serif; font-weight: 900; font-size: 48px; }
+      .chip-body { fill: none; stroke: #ffffff; stroke-width: 2.5; }
+      .chip-pin { fill: #ffffff; }
+      .chip-accent { fill: #e63946; }
+      .book-page { fill: #ffffff; }
+      .book-cover { fill: none; stroke: #ffffff; stroke-width: 2; }
+    </style>
+  </defs>
+
+  <!-- Deep blue background field -->
+  <rect class="bg" x="0" y="0" width="400" height="120" rx="8" ry="8"/>
+
+  <!-- AI Chip above open book emblem -->
+  <!-- Chip body -->
+  <rect class="chip-body" x="32" y="12" width="36" height="36" rx="4"/>
+  <!-- Chip inner detail -->
+  <rect class="chip-body" x="40" y="20" width="20" height="20" rx="2"/>
+  <!-- Chip center dot -->
+  <circle class="chip-accent" cx="50" cy="30" r="3"/>
+  <!-- Chip pins - top -->
+  <rect class="chip-pin" x="42" y="6" width="4" height="6"/>
+  <rect class="chip-pin" x="54" y="6" width="4" height="6"/>
+  <!-- Chip pins - bottom -->
+  <rect class="chip-pin" x="42" y="48" width="4" height="6"/>
+  <rect class="chip-pin" x="54" y="48" width="4" height="6"/>
+  <!-- Chip pins - left -->
+  <rect class="chip-pin" x="26" y="18" width="6" height="4"/>
+  <rect class="chip-pin" x="26" y="30" width="6" height="4"/>
+  <!-- Chip pins - right -->
+  <rect class="chip-pin" x="68" y="18" width="6" height="4"/>
+  <rect class="chip-pin" x="68" y="30" width="6" height="4"/>
+
+  <!-- Open book below chip -->
+  <!-- Left page -->
+  <path class="book-cover" d="M 24 58 Q 24 52 30 52 L 50 52 L 50 82 L 30 82 Q 24 82 24 76 Z"/>
+  <!-- Right page -->
+  <path class="book-cover" d="M 76 58 Q 76 52 70 52 L 50 52 L 50 82 L 70 82 Q 76 82 76 76 Z"/>
+  <!-- Book spine line -->
+  <line x1="50" y1="52" x2="50" y2="82" stroke="#ffffff" stroke-width="2.5"/>
+  <!-- Page lines left -->
+  <line x1="32" y1="60" x2="46" y2="60" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="66" x2="46" y2="66" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="32" y1="72" x2="46" y2="72" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <!-- Page lines right -->
+  <line x1="54" y1="60" x2="68" y2="60" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="54" y1="66" x2="68" y2="66" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+  <line x1="54" y1="72" x2="68" y2="72" stroke="#ffffff" stroke-width="1" opacity="0.5"/>
+
+  <!-- NDB-TV Wordmark -->
+  <text class="ndb-text" x="108" y="76">NDB</text>
+  <text class="tv-text" x="232" y="76">TV</text>
+</svg>

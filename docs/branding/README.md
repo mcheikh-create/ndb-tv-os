@@ -30,7 +30,10 @@ We are positioned at the intersection of artificial intelligence, education, ent
 
 ### Master Source of Truth
 
-**The master PNG logo is the single source of truth for all NDB-TV branding.**
+**The official visual source of truth for NDB-TV branding is the founder-approved PNG logo located at:**
+**`assets/logo/master/ndb-tv-master-v1.png`**
+
+All SVG, favicon, social, banner, watermark, and video derivatives must be generated from this master asset. Any derivative that does not match the master PNG in color, proportion, typography, or layout must be corrected.
 
 | File | Resolution | Role |
 |------|-----------|------|

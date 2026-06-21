@@ -1,7 +1,11 @@
 # NDB-TV Logo Specification
 
+**Status:** APPROVED
+**Version:** 1.0
+**Authority:** Founder Approved
+**Canonical Asset:** `assets/logo/master/ndb-tv-master-v1.png`
+
 **Document Version:** 2.0
-**Status:** Final — Approved
 **Last Updated:** 2026-06-21
 
 ---

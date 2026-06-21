@@ -8,7 +8,11 @@
 
 ## 1. Logo Overview
 
-The NDB-TV logo is a professional news-style wordmark that communicates trust, innovation, and local identity.
+**The official NDB-TV logo master file is:** `assets/logo/master/ndb-tv-master-v1.png` (3840×1152)
+
+All platform-specific assets in `assets/logo/youtube/`, `assets/logo/social/`, `assets/logo/print/`, `assets/logo/video/`, and `assets/logo/favicon/` are **derived from this master file**.
+
+**SVG files are supporting assets only.** They document the vector structure but are not the official visual reference. The master PNG is the source of truth for color, proportion, layout, and typography.
 
 ### Elements
 
@@ -214,16 +218,62 @@ For single-color applications: fax, stamp, newspaper.
 
 All design source files are maintained in `assets/logo/`.
 
+### Master (Source of Truth)
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `master/ndb-tv-master-v1.png` | 3840×1152 | Master PNG — official visual source of truth |
+| `master/ndb-tv-master-v1-2k.png` | 1920×576 | Working copy for designers |
+
+### YouTube
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `youtube/youtube-profile-800x800.png` | 800×800 | YouTube channel profile image |
+| `youtube/youtube-banner-2560x1440.png` | 2560×1440 | YouTube channel banner |
+
+### Social Media
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `social/facebook-profile.png` | 512×512 | Facebook page profile image |
+| `social/whatsapp-channel.png` | 512×512 | WhatsApp channel icon |
+| `social/x-profile.png` | 400×400 | X/Twitter profile image |
+| `social/instagram-profile.png` | 320×320 | Instagram profile image |
+| `social/tiktok-profile.png` | 200×200 | TikTok profile image |
+| `social/telegram-profile.png` | 512×512 | Telegram channel icon |
+| `social/website-header-1200x200.png` | 1200×200 | Website header logo |
+
+### Print
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `print/ndb-tv-letterhead.png` | 600×200 | Letterhead logo |
+| `print/ndb-tv-watermark.png` | 400×120 | Semi-transparent watermark (30% opacity) |
+
+### Video
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `video/intro-logo.png` | 1920×576 | Intro animation logo |
+| `video/outro-logo.png` | 960×288 | Outro end screen logo |
+| `video/lower-third-logo.png` | 600×80 | Lower-third broadcast overlay |
+
+### Favicon
+
+| File | Resolution | Description |
+|------|-----------|-------------|
+| `favicon/favicon-16.png` | 16×16 | Smallest favicon |
+| `favicon/favicon-32.png` | 32×32 | Standard favicon |
+| `favicon/favicon-64.png` | 64×64 | High-DPI favicon |
+| `favicon/favicon.ico` | 16+32+64 | Multi-resolution ICO file |
+
+### SVG (Supporting Reference Only)
+
 | File | Description |
 |------|-------------|
-| `ndb-tv-logo-primary.png` | Full color — deep blue field, white NDB, red TV |
-| `ndb-tv-logo-primary-light.png` | Light variant for light backgrounds |
-| `ndb-tv-logo-horizontal.png` | Horizontal layout |
-| `ndb-tv-logo-vertical.png` | Vertical/stacked layout |
-| `ndb-tv-logo-icon.png` | Icon-only - AI chip + book |
-| `ndb-tv-logo-mono.png` | Monochrome variant |
-| `ndb-tv-logo-source.ai` | Adobe Illustrator source |
-| `ndb-tv-logo-source.svg` | SVG source |
+| `ndb-tv-logo-source.svg` | SVG wordmark — AI chip + open book + NDB-TV |
+| `ndb-tv-logo-icon.svg` | SVG icon — chip + book only |
 
 ---
 

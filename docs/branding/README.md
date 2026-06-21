@@ -28,6 +28,19 @@ We are positioned at the intersection of artificial intelligence, education, ent
 
 ## Official Logo
 
+### Master Source of Truth
+
+**The master PNG logo is the single source of truth for all NDB-TV branding.**
+
+| File | Resolution | Role |
+|------|-----------|------|
+| `assets/logo/master/ndb-tv-master-v1.png` | 3840×1152 | **Master — source of truth.** All derivatives generated from this file. |
+| `assets/logo/master/ndb-tv-master-v1-2k.png` | 1920×576 | Working copy for designers (smaller file size) |
+
+**SVG files** (`assets/logo/ndb-tv-logo-source.svg`, `assets/logo/ndb-tv-logo-icon.svg`) are **supporting assets only** — reference material for the SVG structure. The official visual reference is always the master PNG.
+
+**Do not redesign or reinterpret the logo.** The master logo is frozen at v1.0. All future design work must use the exact AI chip, open book, color palette, typography, and layout shown in the master PNG.
+
 ### Logo Design
 
 The NDB-TV logo is a professional news-style wordmark composed of:
@@ -41,15 +54,53 @@ The NDB-TV logo is a professional news-style wordmark composed of:
 
 ### Logo Files
 
-| File | Description | Format |
-|------|-------------|--------|
-| `ndb-tv-logo-primary.png` | Full color — deep blue background, white NDB, red TV, AI+book icon | PNG |
-| `ndb-tv-logo-primary-light.png` | Light background variant — for use on white/light surfaces | PNG |
-| `ndb-tv-logo-icon.png` | Icon-only (AI chip + open book) for avatars and small spaces | PNG |
-| `ndb-tv-logo-horizontal.png` | Horizontal layout for banners and wide formats | PNG |
-| `ndb-tv-logo-vertical.png` | Stacked layout for vertical formats (shorts, stories) | PNG |
-| `ndb-tv-logo-source.ai` | Adobe Illustrator source file | AI |
-| `ndb-tv-logo-source.svg` | Scalable vector source | SVG |
+The logo files are organized in a strict hierarchy:
+
+**`assets/logo/master/`** — Single source of truth
+| File | Resolution | Role |
+|------|-----------|------|
+| `ndb-tv-master-v1.png` | 3840×1152 | **Master.** Do not edit. All derivatives come from this file. |
+| `ndb-tv-master-v1-2k.png` | 1920×576 | Working copy (smaller size for everyday use). |
+
+**`assets/logo/youtube/`** — YouTube platform assets
+| File | Size |
+|------|------|
+| `youtube-profile-800x800.png` | 800×800 |
+| `youtube-banner-2560x1440.png` | 2560×1440 |
+
+**`assets/logo/social/`** — Social media profiles
+| File | Size |
+|------|------|
+| `facebook-profile.png` | 512×512 |
+| `whatsapp-channel.png` | 512×512 |
+| `x-profile.png` | 400×400 |
+| `instagram-profile.png` | 320×320 |
+| `tiktok-profile.png` | 200×200 |
+| `telegram-profile.png` | 512×512 |
+| `website-header-1200x200.png` | 1200×200 |
+
+**`assets/logo/print/`** — Print and document assets
+| File | Size |
+|------|------|
+| `ndb-tv-letterhead.png` | 600×200 |
+| `ndb-tv-watermark.png` | 400×120 (30% opacity) |
+
+**`assets/logo/video/`** — Video production assets
+| File | Size |
+|------|------|
+| `intro-logo.png` | 1920×576 |
+| `outro-logo.png` | 960×288 |
+| `lower-third-logo.png` | 600×80 |
+
+**`assets/logo/favicon/`** — Website favicons
+| File | Size |
+|------|------|
+| `favicon-16.png` | 16×16 |
+| `favicon-32.png` | 32×32 |
+| `favicon-64.png` | 64×64 |
+| `favicon.ico` | Multi-resolution |
+
+**SVG files** (`ndb-tv-logo-source.svg`, `ndb-tv-logo-icon.svg`) are **supporting assets only** — they document the vector structure but are not the official visual reference.
 
 ### Logo Usage
 
@@ -273,16 +324,18 @@ Created and maintained in `assets/thumbnails/`.
 
 ## Asset File Naming Convention
 
-**Format:** `ndb-tv_[asset-type]_[descriptor]_[size|variant].[ext]`
+**Format:** `[platform]-[descriptor]-[resolution].[ext]`
 
-| Category | Asset Type | Example |
+All files placed in their platform-specific subdirectory under `assets/logo/`.
+
+| Category | Directory | Example |
 |----------|------------|---------|
-| Logo | `logo` | `ndb-tv_logo_primary_1080p.png` |
-| Banner | `banner` | `ndb-tv_banner_youtube_2560x1440.png` |
-| Thumbnail | `thumbnail` | `ndb-tv_thumbnail_zidni-ai_001.jpg` |
-| Intro | `intro` | `ndb-tv_intro_animation_v1.mp4` |
-| Outro | `outro` | `ndb-tv_outro_endscreen_v1.mp4` |
-| Overlay | `overlay` | `ndb-tv_overlay_lower-third_v1.png` |
+| Master | `master/` | `ndb-tv-master-v1.png` |
+| YouTube | `youtube/` | `youtube-profile-800x800.png` |
+| Social | `social/` | `facebook-profile.png` |
+| Print | `print/` | `ndb-tv-letterhead.png` |
+| Video | `video/` | `intro-logo.png` |
+| Favicon | `favicon/` | `favicon-32.png` |
 
 ---
 

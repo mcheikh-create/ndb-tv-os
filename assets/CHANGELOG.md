@@ -1,28 +1,38 @@
 # Brand Asset Changelog
 
-## 2026-06-21 — Official Brand Launch v2.0
+## 2026-06-21 — Master Logo v1.0 Production Assets
 
 ### Changes
-- Brand positioning rewritten: "The media network of the AI era in Nouadhibou"
-- Official logo approved: Deep blue background, white NDB, red TV, AI chip + open book emblem
-- Color palette updated: Deep Blue (#0a1f3d), White, Red (#e63946) — removed old blue/orange/green scheme
-- Taglines finalized:
-  - Primary Arabic: صوت المعرفة والابتكار في نواذيبو
-  - Alternative Arabic: منصة الذكاء الاصطناعي والمعرفة للجميع
-  - English: The Voice of Innovation in Nouadhibou
-- Brand pillars defined: AI, Education, Entrepreneurship, Youth Success, Community Development, Innovation, Nouadhibou Future Vision
-- Visual style set: Professional news-network aesthetic, deep blue dominant, red accent
-- Logo specification document created (`assets/logo/NDB-TV-LOGO-SPEC.md`)
-- SVG source files created for wordmark and icon variants
-- Brand guidelines rewritten completely (`docs/branding/README.md`)
-- All previous logo drafts and color schemes superseded
+- Master PNG rendered at 4K (3840×1152) as the single source of truth
+- All platform derivatives generated from master PNG
+- Strict directory hierarchy established: master → youtube, social, print, video, favicon
+- Logo hierarchy updated in documentation: SVG = supporting, PNG master = source of truth
+- Generation script saved at `scripts/generate-logos.py`
+- Directory structure settled: no more root-level logo files, organized by platform
 
 ### Files Added
-- `assets/logo/ndb-tv-logo-source.svg` — Full wordmark SVG
-- `assets/logo/ndb-tv-logo-icon.svg` — Icon-only SVG
-- `assets/logo/NDB-TV-LOGO-SPEC.md` — Detailed logo specification
-- `docs/branding/README.md` — Complete brand guidelines (rewritten)
+- `assets/logo/master/ndb-tv-master-v1.png` — 4K master (source of truth)
+- `assets/logo/master/ndb-tv-master-v1-2k.png` — 2K working copy
+- `assets/logo/youtube/youtube-profile-800x800.png`
+- `assets/logo/youtube/youtube-banner-2560x1440.png`
+- `assets/logo/social/facebook-profile.png`
+- `assets/logo/social/whatsapp-channel.png`
+- `assets/logo/social/x-profile.png`
+- `assets/logo/social/instagram-profile.png`
+- `assets/logo/social/tiktok-profile.png`
+- `assets/logo/social/telegram-profile.png`
+- `assets/logo/social/website-header-1200x200.png`
+- `assets/logo/print/ndb-tv-letterhead.png`
+- `assets/logo/print/ndb-tv-watermark.png`
+- `assets/logo/video/intro-logo.png`
+- `assets/logo/video/outro-logo.png`
+- `assets/logo/video/lower-third-logo.png`
+- `assets/logo/favicon/favicon-16.png`
+- `assets/logo/favicon/favicon-32.png`
+- `assets/logo/favicon/favicon-64.png`
+- `assets/logo/favicon/favicon.ico`
+- `scripts/generate-logos.py`
 
 ### Files Modified
-- `README.md` — Tagline updated to official version
-- `docs/founding-manual/NDB-TV-Founding-Manual.md` — Brand identity section added
+- `docs/branding/README.md` — Master hierarchy, updated file listing, new naming convention
+- `assets/logo/NDB-TV-LOGO-SPEC.md` — Master source of truth declaration, updated design files table
